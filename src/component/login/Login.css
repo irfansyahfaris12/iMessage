@@ -1,0 +1,64 @@
+.kanan{
+    border: 1px solid black;
+}
+.kiri{
+    border: 1px solid black;
+}
+.body-right{
+    margin-top: 25vh;
+    padding: 50px;
+    background: white;
+    /* width: 75vh; */
+    height: 50vh;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+.header-body{
+    padding-top: 10px;
+    padding-left: 50px;
+}
+.main-body{
+    padding-top: 30px;
+    padding-left: 80px;
+    /* width: 70vh; */
+}
+.footer-body{
+    padding-left: 50px;
+    padding-top: 5px;
+    display: flex;
+}
+
+.body-left{
+    background: white;
+    margin-top: 16vh;
+    height: 70vh;
+    /* width: 70vh; */
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    text-align: center;
+}
+
+.web{
+    padding: 30px;
+}
+.android{
+    padding: 30px;
+}
+
+.d-block{
+    width: 80%;
+    margin-left: 50px;
+}
+.carousel{
+
+}
+.btn{
+    color: #bdbcb9;
+}
+
+@media screen and (max-width:800px){
+    .body-right{
+        margin-top: 0;
+    }
+    .body-left{
+        margin-top: 0;
+    }
+}

@@ -1,0 +1,14 @@
+<button type="submit" onClick={this.onLoginPress}>
+                        sign in with google
+                </button>
+
+                    {this.state.isLoading ? (
+                        <div>
+                            <ReactLoading
+                                type={'spin'}
+                                color={'#203152'}
+                                height={'3%'}
+                                width={'3%'}
+                            />
+                        </div>
+                    ) : null}
